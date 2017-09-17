@@ -1,10 +1,10 @@
-# Spike - Robert Steilberg - rhs16
+# Spike - Robert Steilberg
 
 ## Overview
 
 This is a simple Android app that supports user login to view content. Basic error checking is included. These are the current users and their passwords, use these logins to see the content.
 
-Currently, the content is an MySQL database of actors hosted on cs.duke.edu, though that database will probably not be hosted for much long after the initial commit.
+Currently, the content is a MySQL database of actors hosted on cs.duke.edu, though that database will probably not be hosted for much long after the initial commit.
 
 | username | password |
 |----------|----------|
