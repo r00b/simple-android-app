@@ -8,6 +8,8 @@ class User {
 
     private String username;
     private String password;
+
+    @Deprecated
     private String secret;
 
     User(String username, String password) {
@@ -20,10 +22,16 @@ class User {
         return username;
     }
 
+    boolean authenticate(String candidatePassword) {
+        return candidatePassword.equals(password);
+    }
+
+    @Deprecated
     void setSecret(String secret) {
         this.secret = secret;
     }
 
+    @Deprecated
     String getSecret(String givenPassword) {
         if (givenPassword.equals(this.password)) {
             return "Log in successful, now displaying secret: \n" + this.secret;

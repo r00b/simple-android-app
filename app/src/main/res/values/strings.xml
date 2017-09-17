@@ -3,4 +3,5 @@
     <string name="button_send">Submit</string>
     <string name="password">Password</string>
     <string name="username">Username</string>
+    <string name="instructions">Enter your username and password to access the actors database.</string>
 </resources>
